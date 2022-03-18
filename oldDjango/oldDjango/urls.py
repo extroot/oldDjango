@@ -7,5 +7,5 @@ urlpatterns = [
     url('^about/', include('about.urls')),
     url('^catalog/', include('catalog.urls')),
     url('^auth/', include('users.urls')),
-    url('', include('homepage.urls')),
+    url('^$', include('homepage.urls')),
 ]
